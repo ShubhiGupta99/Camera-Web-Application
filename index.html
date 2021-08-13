@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Camera App</title>
+</head>
+<body>
+    <div class="video-container">
+    <div class="frame" style="overflow: hidden; height: 100%;">
+        <video autoplay style="height: 100%;"></video>
+    </div>
+    </div> 
+
+    <div class="filter-screen-parent"></div>
+ 
+    
+    <div class="icons">
+        <div class="material-icons" id="record-video">radio_button_checked</div>
+        <div class="material-icons" id="click-pic">camera_alt</div>
+    </div>
+     
+    <div class="open-container">
+        <div class="material-icons" id="menu-open">menu_open</div>
+        <div style="font-weight: 300;font-size: 20px;padding-left: 5px;"> Apply Filters</div>
+    </div>
+    <!-- <div class="filter-container">
+       
+        <div style="background-color: #f4a2613d;" class="filter"></div>
+        <div style="background-color: #e85d0440;" class="filter"></div>
+        <div style="background-color: #ad5d6d7a;" class="filter"></div>
+        <div style="background-color: #2195f323;" class="filter"></div>
+         <div style="background-color: #4caf4f31;" class="filter"></div> 
+        <div style="background-color:rgba(31, 20, 22, 0.719);" class="filter"></div>
+    </div> -->
+    <div class="zoom">
+        <div class="zoom-in material-icons">zoom_in</div>
+        <div class="zoom-out material-icons">zoom_out</div>
+    </div>
+
+    <div class="show-gallery">
+    </div>
+    <!-- <div class="timer">
+        <span class="mins">00</span>
+        <span>:</span>
+        <span class="secs">00</span>
+    </div> -->
+
+    <!-- <div class="modal-gallery">
+        <div class="title">
+            <div>Gallery</div>
+            <span style="float: right;">x</span>
+        </div>
+        <div class="gallery">
+            <div class="show-images"></div>
+            <div class="show-videos"></div>
+        </div>
+        
+    </div> -->
+
+    
+    
+    <script src="dbScript.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
